@@ -20,7 +20,12 @@ export default class TodoInput extends Component {
               onChange={handleChange}
             />
           </div>
-          <button type="submit" className="btn btn-block btn-primary mt-3 text-uppercase">add to list</button>
+          <button
+            type="submit"
+            className="btn btn-block btn-primary mt-3 text-uppercase"
+          >
+            add to list
+          </button>
         </form>
       </div>
     );
